@@ -1,3 +1,5 @@
+# 本项目是基于SET协议的通信模拟实现
+
 - 代码分为三个参与方分别实现，并用socket模块进行本地通信。
 
 - 在启用时先运行merchant.py和paymentGateway.py，二者启动后对端口保持监听，这时再启动consumer.py进行连接
